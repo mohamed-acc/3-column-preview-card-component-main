@@ -1,0 +1,102 @@
+/* Colors* /
+/* Primary */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.box {
+  display: flex;
+  flex-direction: row;
+  width: 70%;
+  height: 75vh;
+  margin: 10%;
+}
+
+h1 {
+  color: hsl(0, 0%, 95%);
+  font-family: "Big Shoulders Display", sans-serif;
+  padding: 20px 0;
+}
+
+p, button {
+  color: hsla(0, 0%, 100%, 0.75);
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+.sedan {
+  background-color: hsl(31, 77%, 52%);
+  border-radius: 10px 0 0 10px;
+}
+
+.SUVs {
+  background-color: hsl(184, 100%, 22%);
+}
+
+.Luxury {
+  border-radius: 0 10px 10px 0;
+  background-color: hsl(179, 100%, 13%);
+}
+
+.sedan, .SUVs, .Luxury {
+  flex: 33.3%;
+  padding: 5%;
+}
+
+button {
+  margin-top: 70px;
+  color: hsl(0, 0%, 95%);
+  border-color: hsl(0, 0%, 95%);
+  background-color: transparent;
+  border-radius: 20px;
+  width: 140px;
+  height: 40px;
+}
+
+.a {
+  background-color: hsl(0, 0%, 95%);
+  cursor: pointer;
+  transition: 0.4s;
+  color: hsl(31, 77%, 52%);
+}
+
+.b {
+  background-color: hsl(0, 0%, 95%);
+  cursor: pointer;
+  transition: 0.4s;
+  color: hsl(184, 100%, 22%);
+}
+
+.c {
+  background-color: hsl(0, 0%, 95%);
+  cursor: pointer;
+  transition: 0.4s;
+  color: hsl(179, 100%, 13%);
+}
+
+button:hover {
+  color: hsl(0, 0%, 95%);
+  background-color: transparent;
+}
+
+@media (max-width: 375px) {
+  .box {
+    display: inline-block;
+  }
+  .sedan {
+    border-radius: 10px 10px 0 0;
+  }
+  .Luxury {
+    border-radius: 0 0 10px 10px;
+  }
+  button {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .attribution {
+    padding-top: 50px;
+  }
+}/*# sourceMappingURL=style.css.map */
